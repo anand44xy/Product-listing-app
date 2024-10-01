@@ -1,0 +1,48 @@
+/* Scrollbar Styles */
+.category-scrollbar {
+  max-height: 500px; /* Set a maximum height for the category container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.product-scrollbar {
+  max-height: 800px; /* Set a maximum height for the product container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Category Scrollbar */
+.category-scrollbar::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+.category-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px; /* Rounded corners for track */
+}
+
+.category-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 10px; /* Rounded corners for thumb */
+}
+
+.category-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
+
+/* Product Scrollbar */
+.product-scrollbar::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+.product-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px; /* Rounded corners for track */
+}
+
+.product-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 10px; /* Rounded corners for thumb */
+}
+
+.product-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}

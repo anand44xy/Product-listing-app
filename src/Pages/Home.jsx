@@ -42,6 +42,7 @@ function Home() {
       name={prod.title}
       img={prod.thumbnail}
       rating={prod.rating}
+      price={prod.price}
     />
   ));
 

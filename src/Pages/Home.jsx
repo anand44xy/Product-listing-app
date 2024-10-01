@@ -58,15 +58,15 @@ function Home() {
 
   return (
     <>
-      <div className='px-5 mt-5'>
+      <div className='mt-5'>
         <div className='row'>
-          <div className='col-3 category-scrollbar'>
+          <div className='col-12 col-md-3 mb-4 category-scrollbar px-5'>
             <Category totalProduct={products.length} currentSlug={slug} />
           </div>
 
-          <div className='col-8 '>
-            <h1 className='text-center font-monospace'>{currentHeading}</h1>
-            <div className='row product-scrollbar'>
+          <div className='col-12 col-md-9'>
+            <h1 className='text-center font-monospace mb-3'>{currentHeading}</h1>
+            <div className='row product-scrollbar px-5'>
               {displayProducts}
             </div>
           </div>

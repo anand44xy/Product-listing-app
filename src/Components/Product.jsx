@@ -2,8 +2,8 @@ import React from 'react';
 
 function Product({ id, name, img, rating }) {
   return (
-    <div className="col-md-4 gy-3 col-lg-3 col-6">
-      <div className="card">
+    <div className="col-12 col-sm-6 col-md-4 gy-3 col-lg-3 col-6">
+      <div className="card h-100">
         <img src={img} alt={name} className="card-img-top" />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
